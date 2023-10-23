@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo-container">
+                <img src="votre-logo.png" alt="Votre Logo" class="logo">
+            </div>
+            <form id="login-form">
+                <div class="error-message" id="email-error">Veuillez entrer une adresse e-mail valide.</div>
+                <input type="email" id="email" name="email" placeholder="Mail" required>
+                <div class="error-message" id="password-error">Les mots de passe ne correspondent pas.</div>
+                <input type="password" id="password" name="password" placeholder="Mot de passe" required>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmation du mot de passe" required>
+                <button type="submit" class="connect-button">Se Connecter</button>
+            </form>
+        </div>
+        <div id="confirmation" class="confirmation">
+            <h1>Compte Créé</h1>
+            <p>Fait par Vepex</p>
+            <div class="emoji">✔️</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
